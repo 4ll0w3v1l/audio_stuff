@@ -1,5 +1,5 @@
 """
-This is the csv to midi module. 
+This is the csvs to midi module.
 """
 
 import re
@@ -105,7 +105,7 @@ def main():
 	# print command line arguments
 	parser = argparse.ArgumentParser()
 
-	parser.add_argument("input_dir_name", help="name of input directory of csv files",
+	parser.add_argument("input_dir_name", help="name of input directory of csvs files",
                     type=str)
 	parser.add_argument("-o", "--output_dir_name", help="name of output directory of midi files, if argument not specified, will create one with suffix output-midis",
 					type=str)
